@@ -1,0 +1,80 @@
+/* Import a clean, modern font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  background: linear-gradient(to bottom, #2575fc 0%, rgba(37, 117, 252, 0) 80%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.contacts {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contacts h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.contacts a {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 8px 10px;
+  transition: color 0.3s ease;
+}
+
+.contacts a:hover {
+  color: #ffdd57;
+}
+
+.contacts a img {
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.save-contact {
+  display: inline-block;
+  background: #ffdd57;
+  color: #333;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(255, 221, 87, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.save-contact:hover {
+  background: #f5c518;
+  box-shadow: 0 8px 25px rgba(245, 197, 24, 0.6);
+}
+
+footer {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: auto;
+  padding: 15px 10px;
+  width: 100%;
+  color: white;
+}
